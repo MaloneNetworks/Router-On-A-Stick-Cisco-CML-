@@ -4,7 +4,7 @@ A small enterprise network built in Cisco Modeling Labs.
 
 ## Topology
 
-![Cisco CML Router-on-a-Stick topology](Topology/CML-RTR-On-A-Stick.png)
+![Cisco CML Router-on-a-Stick topology](01%20-%20Topology/CML-RTR-On-A-Stick.png)
 
 ## What this lab covers
 
@@ -27,11 +27,14 @@ R1 provides the VLAN gateways and DHCP for the three department networks. SW1 an
 
 ## Lab status
 
-Core configuration is complete. Endpoint DHCP and inter-VLAN connectivity have been tested successfully. Documentation, screenshots, and final management connectivity checks will be added as the lab is reviewed.
+Core configuration is complete. Endpoint DHCP, inter-VLAN connectivity, and switch management reachability have been tested.
 
 ## Repository contents
 
-- `Topology/` – topology image and CML project file
-- `Configurations/` – sanitized device configurations
-- `Screenshots/` – lab verification screenshots
-- `Documentation/` – step-by-step notes
+1. `01 - Topology/` – CML topology image and project files
+2. `02 - VLAN Configuration/` – VLAN database and access-port assignments
+3. `03 - Trunk Configuration/` – 802.1Q trunk verification
+4. `04 - Router Configuration/` – router subinterfaces, DHCP, and routing table
+5. `05 - Management Connectivity/` – switch management reachability
+6. `06 - Connectivity Testing/` – endpoint connectivity tests
+7. `07 - Documentation/` – lab scenario and supporting notes
