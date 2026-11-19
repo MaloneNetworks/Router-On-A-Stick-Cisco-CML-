@@ -1,11 +1,16 @@
 # Connectivity Testing
 
-This section will document endpoint connectivity tests across the VLANs.
+The screenshots below document connectivity tests from each Linux endpoint.
 
-Screenshots will be added after the test results are reviewed.
+## PC-ADMIN
 
-## Tests to document
+![PC-ADMIN successful ping tests](pc-admin%20successful%20pings.png)
 
-- DHCP address assignment on each endpoint
-- Ping to each endpoint's default gateway
-- Inter-VLAN connectivity between department endpoints
+## PC-IT
+
+![PC-IT successful ping tests](pc-it%20successful%20pings.png)
+
+## PC-OPS
+
+![PC-OPS successful ping tests](pc-op%20successful%20pings%20.png)
+
