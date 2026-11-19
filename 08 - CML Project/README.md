@@ -1,5 +1,10 @@
 # CML Project
 
-Upload the exported Cisco Modeling Labs project file here so others can import and run the topology.
+The exported Cisco Modeling Labs project file is included below.
 
-Recommended file format: the exported CML lab YAML file.
+## Project file
+
+- [RouterOnAStick_Baseline.yaml](RouterOnAStick_Baseline.yaml)
+
+Import this YAML file into Cisco Modeling Labs to load the lab topology.
+
