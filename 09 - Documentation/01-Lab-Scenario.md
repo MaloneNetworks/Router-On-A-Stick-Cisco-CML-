@@ -26,12 +26,25 @@ Build a small enterprise network in Cisco Modeling Labs (CML) that separates thr
 | PC-IT | IT endpoint |
 | PC-OPS | Operations endpoint |
 
+### VLAN and addressing plan
+
+| VLAN | Department | Network | Gateway |
+|---:|---|---|---|
+| 10 | Administration | 192.168.10.0/24 | 192.168.10.1 |
+| 20 | IT | 192.168.20.0/24 | 192.168.20.1 |
+| 30 | Operations | 192.168.30.0/24 | 192.168.30.1 |
+| 99 | Management | 192.168.99.0/24 | 192.168.99.1 |
+
+SW1 uses 192.168.99.11/24 and SW2 uses 192.168.99.12/24 for management. Both use 192.168.99.1 as their default gateway.
+
 ### Expected outcome
 
 Each endpoint should receive an address from the correct department subnet, use its VLAN gateway, and communicate with endpoints in the other department VLANs through R1.
 
-The switches should have management addresses in VLAN 99.
+The switches should have management addresses in VLAN 99 and be reachable through the management network.
 
 ### Lab status
 
-The core VLAN, trunk, router-on-a-stick, DHCP, and endpoint connectivity configuration has been completed. This document will be updated as the lab is reviewed and final verification evidence is collected.
+The lab configuration and verification evidence are organized in this repository. The walkthrough includes VLAN membership, trunk configuration, router subinterfaces and DHCP, switch management reachability, and endpoint connectivity.
+
+See the [root README](../README.md) for the project walkthrough and links to each section.

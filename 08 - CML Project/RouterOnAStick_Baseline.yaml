@@ -23,15 +23,15 @@ annotations:
       DEVICE: R1
       Hostname: R1
 
-      Interface: GigabitEthernet0/0
+      Interface: Ethernet0/0
       Purpose: Physical trunk connection to SW1
 
-      Interface: GigabitEthernet0/0.10
+      Interface: Ethernet0/0.10
       VLAN: 10
       IP Address: 192.168.10.1
       Subnet Mask: 255.255.255.0
 
-      Interface: GigabitEthernet0/0.20
+      Interface: Ethernet0/0.20
       VLAN: 20
       IP Address: 192.168.20.1
       Subnet Mask: 255.255.255.0
@@ -50,12 +50,12 @@ annotations:
     rotation: 0
     text_bold: true
     text_content: |-
-      Interface: GigabitEthernet0/0.30
+      Interface: Ethernet0/0.30
       VLAN: 30
       IP Address: 192.168.30.1
       Subnet Mask: 255.255.255.0
 
-      Interface: GigabitEthernet0/0.99
+      Interface: Ethernet0/0.99
       VLAN: 99
       IP Address: 192.168.99.1
       Subnet Mask: 255.255.255.0
